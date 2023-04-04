@@ -1,19 +1,19 @@
 
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="{{asset('site/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('site/bootstrap.css')}}">
 
-    <title>HOME</title>
+    <title>@yield('title')</title>
   </head>
   <body>
     {{-- MENU TOPO --}}
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary bg-gradient">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">MENU</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
